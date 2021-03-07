@@ -1,6 +1,24 @@
-// Fading LED 
-// by BARRAGAN <http://people.interaction-ivrea.it/h.barragan> 
+### Fading LED
+- [For lykkjan](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
 
+```C
+// Dim an LED using a PWM pin
+int PWMpin = 10;  // LED in series with 470 ohm resistor on pin 10
+
+void setup() {
+  // no setup needed
+}
+
+void loop() {
+  for (int i = 0; i <= 255; i++) {
+    analogWrite(PWMpin, i);
+    delay(10);
+  }
+}
+```
+
+### Fading LED 
+```C
 int value = 0;                            // variable to keep the actual value 
 int ledpin = 9;                           // light connected to digital pin 9
  
@@ -22,3 +40,4 @@ void loop()
     delay(30); 
   }  
 } 
+```
