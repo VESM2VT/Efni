@@ -1,4 +1,4 @@
-### Fading LED
+### Fading LED með forlykkju
 - [For lykkjan](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
 
 ```C
@@ -17,7 +17,7 @@ void loop() {
 }
 ```
 
-### Fading LED 
+### Fading LED (tvær forlykkjur)
 ```C
 int value = 0;                            // variable to keep the actual value 
 int ledpin = 9;                           // light connected to digital pin 9
