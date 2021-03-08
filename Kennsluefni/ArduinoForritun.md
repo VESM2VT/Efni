@@ -2,6 +2,17 @@
 
 Arduino er forritað með Arduino málinu sem er mjög líkt og [C](https://en.wikipedia.org/wiki/C_(programming_language)) og [C++](https://en.wikipedia.org/wiki/C%2B%2B) málin.
 
+## Efnisyfirlit
+- [Breytur](#breytur)
+- [Reyknivirkjar](#reiknivirkjar)
+- [Athugasemdir í kóða](#athugasemdir-í-kóða)
+- [Föll](#föll)
+- [Skrifað á skjá](#skrifað-á-skjá)
+- [Lesið frá Serial Monitor](#lesið-inn-frá-serial-monitor)
+- [Rökvirkjar](#rökvirkjar)
+- [Skilyrðissetningar](#skilyrðissetningar)
+- [Lykkjur](#lykkjur)
+
 ## Breytur
 
 Ólíkt python þá þarf alltaf að taka fram af hvaða tagi breytur eru í Arduino. Með taginu er ákveðið hvað breytan á að geyma (t.d. heiltölu, kommutölu eða bókstaf).
