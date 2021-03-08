@@ -7,7 +7,7 @@ Arduino er forritað með Arduino málinu sem er mjög líkt og [C](https://en.w
 - [Reyknivirkjar](#reiknivirkjar)
 - [Athugasemdir í kóða](#athugasemdir-í-kóða)
 - [Föll](#föll)
-- [Skrifað á skjá](#skrifað-á-skjá)
+- [Skrifað í Serial Monitor](#skrifað-í-serial-monitor)
 - [Lesið frá Serial Monitor](#lesið-inn-frá-serial-monitor)
 - [Rökvirkjar](#rökvirkjar)
 - [Skilyrðissetningar](#skilyrðissetningar)
@@ -148,7 +148,7 @@ void loop() {
 }
 ```
 
-## Skrifað á skjá
+## Skrifað í Serial Monitor
 
 Arduino er ekki með skjá en notaður er Serial Monitor sem hægt er að skrifa út á.
 
