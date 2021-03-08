@@ -6,17 +6,7 @@ Arduino er forritað með Arduino málinu sem er mjög líkt og [C](https://en.w
 
 Ólíkt python þá þarf alltaf að taka fram af hvaða tagi breytur eru í Arduino. Með taginu er ákveðið hvað breytan á að geyma (t.d. heiltölu, kommutölu eða bókstaf).
 
-**Python**
-
-```python
-heiltala = 42
-kommutala = 3.14
-bokstafur = 'a'
-texti = "VESM2VT og Arduino"
-satt = True
-```
-
-**Arduino**
+### Dæmi
 
 ```c++
 int heiltala = 42;
@@ -44,7 +34,9 @@ Eins og allt annað sem tölvur vinna með þá eru tölur geymdar í tvíundake
 
 En hvað með -42, hvernig er hægt að geyma þá tölu t.d. í ```char``` breytu? Aðferðin sem notuð er heitir tvíundafylling (e. [2's complement](https://en.wikipedia.org/wiki/Two's_complement)) og virkar þannig að til að finna mínus tölu af annarri tölu tökum við bitana og snúm þeim við (1 verður 0 og 0 verður 1) síðan leggjum við einn við nýju tölun.
 
-Dæmi, hvernig er -42 í ```char``` (8 bita tala) breytu:
+#### Dæmi
+
+Hvernig er -42 í ```char``` (8 bita tala) breytu:
 
 ```
 Tökum 42        00101010
@@ -75,7 +67,7 @@ Reiknivirkjarnir virka eins í Arduino og Python. Þó eru til tveir reiknivirkj
 - ```++``` virkinn sem er notaður til að hækka gildi breytu um 1.
 - ```--``` virkinn sem er notaður til að lækka gildi breytu um 1.
 
-Dæmi:
+### Dæmi
 
 ```c++
 int k = 7;
@@ -84,8 +76,6 @@ k--; // Eftir keyrslu línunnar er innihald k 7
 ```
 
 ## Athugasemdir í kóða
-
-**Arduino**
 
 ```c++
 // athugasemd í einni línu
@@ -101,6 +91,7 @@ k--; // Eftir keyrslu línunnar er innihald k 7
 Svipað og með breyturnar þá þarf að taka fram í Arduino hvaða tagi fallið skilar og af hvaða tagi færibreyturnar eru.
 
 **Python**
+
 ```python
 def leggjaSaman(a , b)
   return a + b
@@ -109,6 +100,7 @@ def leggjaSaman(a , b)
 Ólíkt python þar sem inndráttur markar gildissvið fallsins þá eru notaðir slaufusvigar ```{``` og ```}``` til að marka gildissvið falla í Arduino.
 
 **Arduino**
+
 ```c++
 int leggjaSaman(int a, int b) {
   return a + b;
@@ -155,7 +147,7 @@ Til að opna Serial Monitor er hægt að smella á stækkunarglerið ef í hægr
 
 Einnig er hægt að nota flýtilyklana Ctrl+Shift+M í Windows og Linux eða Shift-Cmd-M í MacOS.
 
-![Serial Monitor](https://raw.githubusercontent.com/VESM2VT/Efni/main/Myndir/SerialMonitor.png)
+![Serial Monitor](https://raw.githubusercontent.com/VESM2VT/Efni/main/Myndir/SerialMonitorGluggi.png)
 
 Virkja þarf ```Serial``` samskiptin í setup fallinu og velja á hvaða hraða þau eiga fara fram Eftir það er hægt að nota ```Serial``` skipanirnar.
 
@@ -283,7 +275,9 @@ y = (x < 10) ? 20 : 30;
 
 ## Lykkjur
 
-Í Arduino eru til þrjár mismunandi lykkur.
+**ATH.** Gott er að muna að ```loop``` fallið er lykkja og oft er hægt að nýta sér það í stað þess að setja lykkju inn í ```loop``` fallið.
+
+Í Arduino eru annars til þrjár mismunandi lykkur.
 
 ### ```while``` lykkjan
 
