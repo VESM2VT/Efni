@@ -155,9 +155,19 @@ Til að opna Serial Monitor er hægt að smella á stækkunarglerið ef í hægr
 
 Einnig er hægt að nota flýtilyklana Ctrl+Shift+M í Windows og Linux eða Shift-Cmd-M í MacOS.
 
-Þetta er aðeins meira mál í Arduino. Virkja þarf ```Serial``` samskiptin í setup fallinu og velja á hvaða hraða þau eiga fara fram Eftir það er hægt að nota ```Serial``` skipanirnar.
+![Serial Monitor](https://raw.githubusercontent.com/VESM2VT/Efni/main/Myndir/SerialMonitor.png)
 
-**Arduino**
+Virkja þarf ```Serial``` samskiptin í setup fallinu og velja á hvaða hraða þau eiga fara fram Eftir það er hægt að nota ```Serial``` skipanirnar.
+
+Helstu skipanir sem notaðar eru til að skrifa til Serial Monitor:
+
+```Serial.begin(HRAÐI)``` þarf að vera í ```setup``` fallinu hér er samskiptahraðinn ákveðinn. Hann þarf að vera sá sami og í Serial Monitor glugganum.
+
+```Serial.print(TEXTI/TALA/BREYTA)``` notað til að skrifa til Serial Monitor án þess að færa bendilinn í nýja línu.
+
+```Serial.println(TEXTI/TALA/BREYTA)``` notað til að skrifa til Serial Monitor færir bendilinn í nýja línu.
+
+### Dæmi
 
 ```c++
 void setup() {
@@ -208,7 +218,7 @@ void loop() {
 
 Rökvirkjarnir er almennt skrifaðir eins og rökvirkjarnir í Python fyrir utan:
 
-Python | Arduino 
+Python | Arduino
 --- | ---
 and | &&
 or | \|\|
@@ -279,6 +289,8 @@ y = (x < 10) ? 20 : 30;
 
 ```while``` lykkjan í Arduino er alveg eins og ```while``` lykkjam í Python nema með fleiri svigum og slaufusvigar en ekki inndráttur marka gildissvið.
 
+#### Dæmi
+
 ```c++
 while (k < 10) {
   // gera það sem á að gera meðan k er minna en 10;
@@ -289,6 +301,8 @@ while (k < 10) {
 ### ```do-while``` lykkjan
 
 Þessi lykkja virkar eins og ```while``` lykkjan fyrir utan að hún keyrir alltaf að minnsta kosti einu sinni. Skilyrðisathugunin fer fram í lok lykkjunnar.
+
+#### Dæmi
 
 ```c++
 do {
@@ -302,19 +316,4 @@ do {
 Í Arduino er ```for``` lykkjan talsvert ólík ```for``` lykkjunni í Python. ```for``` lykkjan er í raun bara ```while``` lykkja með öllu inniföldu.
 
 ![while og for](https://raw.githubusercontent.com/VESM2VT/Efni/main/Myndir/whilefor.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
