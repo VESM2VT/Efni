@@ -2,6 +2,11 @@
 
 Arduino er forritað með Arduino málinu sem er mjög líkt og [C](https://en.wikipedia.org/wiki/C_(programming_language)) og [C++](https://en.wikipedia.org/wiki/C%2B%2B) málin.
 
+* [Arduino forritunarmálið (reference á ensku)](https://www.arduino.cc/reference/en/)
+* [Samanburður á Python og Arduino C/C++ (pdf)](https://github.com/VESM2VT/Efni/blob/master/Skjol/CogPython.pdf)
+
+---
+
 ## Efnisyfirlit
 
 - [Breytur](#breytur)
