@@ -36,6 +36,8 @@ Skrifaðu forrit sem les inn textastreng frá Serial Monitor og skilar sama stre
 
 **Til umhugsunar**, birtist strengurinn aftur og aftur í Serial Monitor? Ef svo er, hvernig getur þú látið hann birtast bara einu sinni. Ef ekki, hvernig getur þú látið hann birtast aftur og aftur.
 
+---
+
 ### Þín eigin mínustala
 
 Aukabjargir:
