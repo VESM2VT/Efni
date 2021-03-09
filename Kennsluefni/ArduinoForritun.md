@@ -176,6 +176,9 @@ Helstu skipanir sem notaðar eru til að skrifa til Serial Monitor:
 
 ```Serial.println(TEXTI/TALA/BREYTA)``` notað til að skrifa til Serial Monitor færir bendilinn í nýja línu.
 
+_Taktu einnig eftir því að TX LED blikkar þegar send eru skilaboð/kóði í tölvu._<br>
+_RX LED blikkar þegar skilaboð eru móttekin frá tölvu_
+
 ### Dæmi
 
 ```c++
