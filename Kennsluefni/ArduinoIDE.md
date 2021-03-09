@@ -1,9 +1,3 @@
-## Arduino vélbúnaður
-
-- [Arduino hardware](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0)
-
----
-
 ## Arduino hugbúnaðurinn
 
   - [Grunnhugbúnaður](#grunnhugbúnaður)
@@ -51,4 +45,5 @@ Til að setja það inn ferðu í Tools -> Manage Libraries...:
 * [Arduino Foundations](https://www.arduino.cc/en/Tutorial/Foundations)
 * [Arduino forritunarmálið (C/C++)](https://www.arduino.cc/reference/en/)
 * [Samanburður á Python og Arduino C/C++](https://github.com/VESM2VT/Efni/blob/master/Skjol/CogPython.pdf)
+
 
