@@ -6,6 +6,8 @@ Bjargir:
 
 Munum að alltaf þegar nota á Serial Monitor þarf að setja ```Serial.begin(9600);``` í ```setup``` fallið.
 
+---
+
 ### Serial Monitor "Hello World!"
 
 Opnaðu Arduino IDE forritið og búðu til nýtt Sketch (File -> New). Það ætti að opnast í nýjum glugga með ```setup``` og ```loop``` föllum.
@@ -16,11 +18,15 @@ Skrifaðu svo í ```loop``` fallið viðeigandi línu þannig að þegar forriti
 
 **Til umhugsunar**, hvernig breytist úttakið í Serial Monitor eftir því hvort þú notar ```print``` eða ```println```.
 
+---
+
 ### Halló og bless
 
 Aukabjargir: [Skilyrðissetningar](https://github.com/VESM2VT/Efni/blob/main/Kennsluefni/ArduinoForritun.md#skilyrðissetningar)
 
 Skrifaðu forrit sem les inn einn staf frá Serial Monitor. Ef stafurinn er ```h``` á að skrifa til Serial Monitor **"halló"** en ef stafurinn er ```b``` á að skrifa **"bless"**.
+
+---
 
 ### Í hástafi
 
