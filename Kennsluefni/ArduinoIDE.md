@@ -43,7 +43,4 @@ Til að setja það inn ferðu í Tools -> Manage Libraries...:
 
 * [Getting Started with Arduino products](https://www.arduino.cc/en/Guide)
 * [Arduino Foundations](https://www.arduino.cc/en/Tutorial/Foundations)
-* [Arduino forritunarmálið (C/C++)](https://www.arduino.cc/reference/en/)
-* [Samanburður á Python og Arduino C/C++](https://github.com/VESM2VT/Efni/blob/master/Skjol/CogPython.pdf)
-
 
