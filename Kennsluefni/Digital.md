@@ -1,6 +1,6 @@
-## _Í vinnslu_ Unnið með stafræn gildi
+_Í vinnslu_ 
 
-- undanfari:  forritun með serial monitor_
+## Unnið með stafræn gildi
 
 Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kveikt/slökkt). Í Arduino er búið að skilgreina [fastana (e. constant)](https://www.arduino.cc/reference/en/language/variables/constants/constants/) ```HIGH``` sem 1 (einn) og ```LOW``` sem 0 (núll). Í raun virkar þetta samt þannig að ```HIGH``` getur verið hvaða **8 bita** heiltala sem er fyrir utan 0. Þannig verður t.d. -42 túlkað sem ```HIGH```.
 
