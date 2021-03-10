@@ -18,9 +18,7 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 
 1. [Blinky (Halló heimur) með TX/RX innbyggðu leds](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1)
 1. [LEDs](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/overview)
-<!--
-1. [Understanding Blink without Delay 3xleds (millis)](https://wokwi.com/playground/blink-without-delay-3-leds)
--->
+
 ---
 
 ### Digital Input 
