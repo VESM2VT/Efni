@@ -12,6 +12,10 @@
 1. [Teljari](https://lastminuteengineers.com/seven-segment-arduino-tutorial/#arduino-code)
 1. [Teningakast (ROLLING DICE)](https://lastminuteengineers.com/seven-segment-arduino-tutorial/#arduino-project-rolling-dice)
 
+<!--
+[On/Off, Count down with 2Darray](https://www.allaboutcircuits.com/projects/interface-a-seven-segment-display-to-an-arduino/)
+-->
+
 ---
 
 ### 4 digit 7-segment displays
@@ -19,6 +23,7 @@
 
 #### Sýnidæmi
 
+1. [Að birta PI](https://www.instructables.com/Using-a-4-digit-7-segment-display-with-arduino/)
 1. [DISPLAYING SENSOR DATA (Thermistoar) neðst](https://www.circuitbasics.com/arduino-7-segment-display-tutorial) 
 1. [Stopwatch](https://wokwi.com/playground/seven-segment-clock)
 1. [Alarm Clock with RTC and Snooze function](https://wokwi.com/playground/alarm-clock)
