@@ -10,7 +10,7 @@
 
 1. [Birta tölu](https://github.com/VESM2VT/Efni/blob/main/Kodi/7segment_BirtaTolu.ino) 
 1. [Teljari](https://lastminuteengineers.com/seven-segment-arduino-tutorial/#arduino-code)
-1. [Teningakast (ROLLING DICE)](https://lastminuteengineers.com/seven-segment-arduino-tutorial/#RollingDice)
+1. [Teningakast (ROLLING DICE)](https://lastminuteengineers.com/seven-segment-arduino-tutorial/#arduino-project-rolling-dice)
 
 ---
 
