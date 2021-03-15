@@ -1,4 +1,4 @@
-# Tímasetning 
+# Tímasetningar
 _Í vinnslu_
 
 ---
