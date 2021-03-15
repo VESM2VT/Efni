@@ -7,6 +7,7 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 ---
 
 ### Helstu aðgerðir
+[Digital Pins](https://www.arduino.cc/en/Tutorial/Foundations/DigitalPins)
 
 - ```pinMode(PINNI, STADA)``` – stillir pinna sem inntaks eða úttakspinna. Dæmi: ```pinMode(4, OUTPUT);``` setur pinna 4 sem úttakspinna.
 - ```digitalWrite(PINNI, GILDI)``` – skrifar annaðhvort ```HIGH``` eða ```LOW``` á pinna. Dæmi: ```digitalWrite(4, LOW);``` skrifar ```LOW``` út á pinna 4.
