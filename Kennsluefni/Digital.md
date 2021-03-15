@@ -16,8 +16,8 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 
 ### Digtial Output 
 
-1. [Blinky (Halló heimur) með TX/RX innbyggðu leds](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1)
-1. [LEDs](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/overview)
+1. [Blink (Halló heimur) með innbyggðu led](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1)
+1. [Blink á brauðbretti](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/overview)
 
 ---
 
