@@ -27,7 +27,7 @@ void loop() {
 ### Issues with delay()
 Avoid the use of `delay()` for timing of events longer than 10’s of milliseconds unless the Arduino sketch is very simple. If your application requires that you constantly read/save data from inputs, you should avoid using the delay() function. 
 
-No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. Dæmi (myndband):  [Timed events and input](https://youtu.be/V27nRZO2-Bk?t=81).  Note! Loops can also be blocking.
+No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. Dæmi (myndband):  [Timed events and input](https://youtu.be/V27nRZO2-Bk?t=136).  Loops can be blocking.
 
 <!--
 [Tight Loops and Blocking Code](https://www.youtube.com/watch?v=IyxY1uQyY9U)
@@ -117,8 +117,7 @@ void loop() {
 }
 
 ```
-Her er myndband sem skýrir þetta einnig [Arduino Sketch with millis() instead of delay()](https://www.youtube.com/watch?v=BYKQ9rk0FEQ)
-
+Her er myndband sem skýrir þetta einnig[Arduino Sketch with millis() instead of delay()](https://www.youtube.com/watch?v=BYKQ9rk0FEQ)
 
 If you need better resolution than millis(), [micros()](https://www.arduino.cc/reference/en/language/functions/time/micros/) may be the way to go. Be aware that micros() will overflow after approximately 70 minutes.
 
