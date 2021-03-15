@@ -42,9 +42,7 @@ _Certain things do go on while the delay() function is controlling the Atmega ch
 ## [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/)
 
 Returns the number of milliseconds (`unsigned long`) passed since the Arduino board began running the current program. By using some math, you can easily verify how much time has passed without blocking your code. 
-Note that millis() will overflow (go back to zero), after approximately 50 days. <br>
-
-Sjá nánar um myndband (11mín): [Arduino millis() function and things to consider](https://www.youtube.com/watch?v=qn8SP93L3iQ)
+Note that millis() will overflow (go back to zero), after approximately 50 days. Sjá nánar um `millis()` myndband (11mín): [Arduino millis() function and things to consider](https://www.youtube.com/watch?v=qn8SP93L3iQ)
 
 
 ### Why Use millis() Instead of delay()?
