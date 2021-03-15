@@ -32,7 +32,9 @@ Avoid the use of `delay()` for timing of events longer than 10’s of millisecon
 
 No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. <br>
 
-Dæmi (myndbönd): [Overlap events](https://www.youtube.com/watch?v=ib3PGI3Zrmc) og [Timed events and input](https://www.youtube.com/watch?v=V27nRZO2-Bk)
+Dæmi (myndband):  [Timed events and input](https://www.youtube.com/watch?v=V27nRZO2-Bk)
+
+<!-- [Overlap events](https://www.youtube.com/watch?v=ib3PGI3Zrmc) -->
 
 _Certain things do go on while the delay() function is controlling the Atmega chip, however, because the delay function does not disable interrupts. Serial communication that appears at the RX pin is recorded, PWM (analogWrite) values and pin states are maintained, and interrupts will work as they should._
 
