@@ -24,6 +24,5 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 ### Digital Input 
 
 1. [Pull Up/Down Resistors](https://github.com/VESM2VT/Efni/blob/main/Kennsluefni/PullUp_PullDown_Resistors.md)
-1. [Digital Read Serial (serial monitor, pulldown resistor)](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial) 
 1. [Digital Input Pull-Up resistor with TX/RX and Serial Monitor](https://www.arduino.cc/en/Tutorial/DigitalInputPullup) 
 1. [Push Button Switch with LED](https://unciarobotics.com/robotics/interfacing-arduino-push-button-switch-with-led-digitalread/)
