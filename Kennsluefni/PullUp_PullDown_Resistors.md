@@ -1,6 +1,6 @@
 ### Floating pin.
 - With no connection, digital inputs “float” between 0 & 5 volts (LOW & HIGH)
-- Myndband og kóðasýnidæmi: [Floating pins](https://www.programmingelectronics.com/floating-pins-pull-up-resistors-and-arduino/) <br>
+- Myndband (10 mín) og kóðasýnidæmi: [Floating pins](https://www.programmingelectronics.com/floating-pins-pull-up-resistors-and-arduino/) <br>
 
 ### Pull Up resistors. 
 1. [Pull Up Resistor (myndband)](https://www.youtube.com/watch?v=wxjerCHCEMg)
