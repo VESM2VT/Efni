@@ -7,7 +7,7 @@
 - [Picking Pull-Up Resistor Values (myndband)](https://www.youtube.com/watch?v=u3Xiy2DVnI4&list=PLRIGIzu0Z7KlfGFD6gd0eMX0ozfJyrQL-&index=12)
    - Afhverju að nota viðnám með hnapp en ekki bara vír (short-circuit) og hve mikið viðnám þarf?
 
-#### Innbyggt viðnám  
+#### Innbyggt viðnám, INPUT_PULLUP
 - Kóðasýnidæmi [`pinMode(pin, INPUT_PULLUP);` 20K](https://www.arduino.cc/en/Tutorial/DigitalInputPullup)  
 - Ekki nota INPUT_PULLUP með pinna 13 þar hann er tengdur við innbyggt LED á Arduino, [sjá nánari skýringar í Digital Pins](https://www.arduino.cc/en/Tutorial/Foundations/DigitalPins). 
 
