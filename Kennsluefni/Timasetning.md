@@ -30,9 +30,7 @@ void loop() {
 ### Issues with delay()
 Avoid the use of `delay()` for timing of events longer than 10’s of milliseconds unless the Arduino sketch is very simple. If your application requires that you constantly read/save data from inputs, you should avoid using the delay() function. 
 
-No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. <br>
-
-Dæmi (myndband):  [Timed events and input](https://www.youtube.com/watch?v=V27nRZO2-Bk)
+No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. Dæmi (myndband):  [Timed events and input](https://www.youtube.com/watch?v=V27nRZO2-Bk)
 
 <!-- [Overlap events](https://www.youtube.com/watch?v=ib3PGI3Zrmc) -->
 
