@@ -6,7 +6,8 @@
 - [Pull Up Resistor (myndband 3:50)](https://www.youtube.com/watch?v=wxjerCHCEMg)
 - [Picking Pull-Up Resistor Values (myndband)](https://www.youtube.com/watch?v=u3Xiy2DVnI4&list=PLRIGIzu0Z7KlfGFD6gd0eMX0ozfJyrQL-&index=12)
    - Afhverju að nota viðnám með hnapp en ekki bara vír (short-circuit) og hve mikið viðnám þarf?
-  
+- Kóðasýnidæmi [pinMode(INPUT_PULLUP) 20K](https://www.arduino.cc/en/Tutorial/DigitalInputPullup)  
+
 ### Pull Down resistors.
 - Með að nota viðnám (10k) í jörð: Resistor “pulls” input to ground (0 volts). 
 - Pressing switch “pushes” input to 5 volts. Press is HIGH, Not pressed is LOW. 
