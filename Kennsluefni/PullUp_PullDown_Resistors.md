@@ -1,9 +1,9 @@
 ### Floating pin.
 - With no connection, digital inputs “float” between 0 & 5 volts (LOW & HIGH)
-- Myndband (10 mín) og kóðasýnidæmi: [Floating pins](https://www.programmingelectronics.com/floating-pins-pull-up-resistors-and-arduino/) (_floating pin, takki, innbyggt led, pullup viðnám_)
+- Myndband (10:00) og kóðasýnidæmi: [Floating pins](https://www.programmingelectronics.com/floating-pins-pull-up-resistors-and-arduino/) (_floating pin, takki, innbyggt led, pullup viðnám_)
 
 ### Pull Up resistors. 
-1. [Pull Up Resistor (myndband)](https://www.youtube.com/watch?v=wxjerCHCEMg)
+1. [Pull Up Resistor (myndband 3:50)](https://www.youtube.com/watch?v=wxjerCHCEMg)
 1. [Picking Pull-Up Resistor Values (myndband)](https://www.youtube.com/watch?v=u3Xiy2DVnI4&list=PLRIGIzu0Z7KlfGFD6gd0eMX0ozfJyrQL-&index=12)
    - Afhverju að nota viðnám með hnapp en ekki bara vír (short-circuit) og hve mikið viðnám þarf?
   
