@@ -10,8 +10,7 @@
 ### Pull Down resistors.
 - Með að nota viðnám (10k) í jörð: Resistor “pulls” input to ground (0 volts). 
 - Pressing switch “pushes” input to 5 volts. Press is HIGH, Not pressed is LOW. 
-- Ekki hafa “pull-down” of lítið, annars tekur það of mikinn straum.
 - Kóðasýnidæmi [Pulldown resistor](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial) 
 
-
+<!-- - Ekki hafa “pull-down” of lítið, annars tekur það of mikinn straum. -->
 
