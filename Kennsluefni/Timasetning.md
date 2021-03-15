@@ -5,10 +5,7 @@ _Í vinnslu_
 
 ## [delay()](https://www.arduino.cc/reference/en/language/functions/time/delay/)
 Pauses the program for the amount of time (in milliseconds). Allowed data types: `unsigned long`.
-
-You will want to use delay() to slow down the processor e.g. to see an LED flashing or to slow it down between sending commands to devices e.g.Hitach HD44780 LCD - the initialisation sequence needs rest periods between some commands.
-
-Sjá myndband [Tight Loops and Blocking Code](https://www.youtube.com/watch?v=IyxY1uQyY9U)
+You will want to use delay() to slow down the processor e.g. to see an LED flashing or to slow it down between sending commands to devices e.g.Hitach HD44780 LCD - the initialisation sequence needs rest periods between some commands. 
 
 ```C
 // Blink
@@ -30,9 +27,12 @@ void loop() {
 ### Issues with delay()
 Avoid the use of `delay()` for timing of events longer than 10’s of milliseconds unless the Arduino sketch is very simple. If your application requires that you constantly read/save data from inputs, you should avoid using the delay() function. 
 
-No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. Dæmi (myndband):  [Timed events and input](https://www.youtube.com/watch?v=V27nRZO2-Bk)
+No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. Dæmi (myndband):  [Timed events and input](https://www.youtube.com/watch?v=V27nRZO2-Bk). Loops can also be blocking.
 
-<!-- [Overlap events](https://www.youtube.com/watch?v=ib3PGI3Zrmc) -->
+<!--
+[Tight Loops and Blocking Code](https://www.youtube.com/watch?v=IyxY1uQyY9U)
+[Overlap events](https://www.youtube.com/watch?v=ib3PGI3Zrmc) 
+-->
 
 _Certain things do go on while the delay() function is controlling the Atmega chip, however, because the delay function does not disable interrupts. Serial communication that appears at the RX pin is recorded, PWM (analogWrite) values and pin states are maintained, and interrupts will work as they should._
 
