@@ -33,9 +33,10 @@ No other reading of sensors, mathematical calculations, or pin manipulation can 
 [Tight Loops and Blocking Code](https://www.youtube.com/watch?v=IyxY1uQyY9U)
 [Overlap events](https://www.youtube.com/watch?v=ib3PGI3Zrmc) 
 -->
-
-_Certain things do go on while the delay() function is controlling the Atmega chip, however, because the delay function does not disable interrupts. Serial communication that appears at the RX pin is recorded, PWM (analogWrite) values and pin states are maintained, and interrupts will work as they should._
-
+<!--
+_Certain things do go on while the delay() function is controlling the Atmega chip, however, because the delay function does not disable interrupts. 
+Serial communication that appears at the RX pin is recorded, PWM (analogWrite) values and pin states are maintained, and interrupts will work as they should._
+-->
 
 ---
 
@@ -125,7 +126,7 @@ If you need better resolution than millis(), [micros()](https://www.arduino.cc/r
 
 ### Kóðasýnidæmi með millis()
 1. [Myndband: Understanding Blink without Delay 3xleds (millis)](https://wokwi.com/playground/blink-without-delay-3-leds)
-1. [Ekkert delay með takka](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay.ino)
 1. [Debounce](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Debounce)
+1. [Ekkert delay með takka](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay.ino)
 1. [Ekkert delay með takka og debounce](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay_debounce.ino)
 1. [Myndband: Doing multiple timed things (sensors) with Arduino](https://www.youtube.com/watch?v=hD3cR25MbW8)
