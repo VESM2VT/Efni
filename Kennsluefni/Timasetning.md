@@ -123,8 +123,6 @@ Her er myndband sem skýrir þetta einnig[Arduino Sketch with millis() instead o
 
 If you need better resolution than millis(), [micros()](https://www.arduino.cc/reference/en/language/functions/time/micros/) may be the way to go. Be aware that micros() will overflow after approximately 70 minutes.
 
----
-
 ### Kóðasýnidæmi með millis()
 1. [Myndband: Understanding Blink without Delay 3xleds (millis)](https://wokwi.com/playground/blink-without-delay-3-leds)
 1. [Ekkert delay með takka](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay.ino)
@@ -132,7 +130,7 @@ If you need better resolution than millis(), [micros()](https://www.arduino.cc/r
 
 ---
 
-### Debounce
+## Debounce
 Debounce an input, means checking twice in a short period of time to make sure the pushbutton is definitely pressed (ignore noise). 
 <br>Sometimes if you pressed the button once, it would register two or even three presses.
 
