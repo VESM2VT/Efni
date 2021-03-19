@@ -4,7 +4,13 @@
 
 ### Single digit 7-segment display
 
-[How Seven Segment Display Works & Interface it with Arduino](https://lastminuteengineers.com/seven-segment-arduino-tutorial/)
+- [How Seven Segment Display Works & Interface it with Arduino](https://lastminuteengineers.com/seven-segment-arduino-tutorial/)
+- [SevSeg library](https://github.com/DeanIsMe/SevSeg)
+- [Myndband: Should I connect one resistor or seven resistors to 7 segment display?](https://www.youtube.com/watch?v=SpGSMsoX2f4)
+
+<!--
+- [7-segment Display útskýrt](https://www.electronics-tutorials.ws/blog/7-segment-display-tutorial.html)
+-->
 
 #### Sýnidæmi
 
@@ -31,7 +37,11 @@
 ---
 
 <!--
+### Punktar
+-  First step: Set all segments off, this helps to reduce the ghosting you see. 
+-->
+
+<!--
 - [Two 7 LED Segments + DHT11 Temperature & Humidity Sensor](https://www.instructables.com/Arduino-Two-7-LED-Segments-DHT11-temperature-humid/)
-- [Temperature Displayed on 4 Digit 7 segment (common anode) með shift register](https://randomnerdtutorials.com/arduino-temperature-displayed-on-4-digit-7-segment/)
-- [7-segment Display útskýrt](https://www.electronics-tutorials.ws/blog/7-segment-display-tutorial.html)
+- [Temperature Displayed on 4 Digit 7 segment (common anode) with shift register](https://randomnerdtutorials.com/arduino-temperature-displayed-on-4-digit-7-segment/)
 -->
