@@ -39,6 +39,7 @@
 <!--
 ### Punktar
 -  First step: Set all segments off, this helps to reduce the ghosting you see (`sevseg.blank();`). 
+-  athcheck if resistorsOnSegments = true or false
 -->
 
 <!--
