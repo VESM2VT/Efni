@@ -38,7 +38,7 @@
 
 <!--
 ### Punktar
--  First step: Set all segments off, this helps to reduce the ghosting you see. 
+-  First step: Set all segments off, this helps to reduce the ghosting you see (`sevseg.blank();`). 
 -->
 
 <!--
