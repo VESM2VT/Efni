@@ -41,3 +41,23 @@ void loop()
   }  
 } 
 ```
+
+### Fading LED, engin for lykkja
+
+```C
+// Dim an LED using a PWM pin
+int PWMpin = 10;  // LED in series with 470 ohm resistor on pin 10
+int i = 0;
+
+void setup() {
+  // no setup needed
+}
+
+void loop() {
+  analogWrite(PWMpin, i++);
+  if(i == 255) {
+    i = 0;
+  }
+  delay(10);
+}
+```
