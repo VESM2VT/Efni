@@ -2,7 +2,9 @@
 
 Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kveikt/slökkt). Í Arduino er búið að skilgreina [fastana (e. constant)](https://www.arduino.cc/reference/en/language/variables/constants/constants/) ```HIGH``` sem 1 (einn) og ```LOW``` sem 0 (núll). Í raun virkar þetta samt þannig að ```HIGH``` getur verið hvaða **8 bita** heiltala sem er fyrir utan 0. Þannig verður t.d. -42 túlkað sem ```HIGH```.
 
-```pinMode(PINNI, STADA)``` – stillir pinna sem inntaks eða úttakspinna. Dæmi: ```pinMode(4, OUTPUT);``` setur pinna 4 sem úttakspinna. Sjá nánar [Digital Pins](https://www.arduino.cc/en/Tutorial/Foundations/DigitalPins)
+- ```pinMode(PINNI, STADA)``` – stillir pinna sem inntaks eða úttakspinna. 
+- Dæmi: ```pinMode(4, OUTPUT);``` setur pinna 4 sem úttakspinna. 
+- Sjá nánar [Digital Pins](https://www.arduino.cc/en/Tutorial/Foundations/DigitalPins)
 
 ---
 
@@ -48,8 +50,9 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 ### Pull Down resistors.
 - Með að nota viðnám (10k) í jörð: Resistor “pulls” input to ground (0 volts). 
 - Pressing switch “pushes” input to 5 volts. Press is HIGH, Not pressed is LOW. 
-- Kóðasýnidæmi [Pulldown resistor](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial) 
-- [Push Button Switch with LED and Pull Down Resistor](https://unciarobotics.com/robotics/interfacing-arduino-push-button-switch-with-led-digitalread/)
+- Kóðasýnidæmi 
+   1. [Pulldown resistor](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial) 
+   1. [Push Button Switch with LED and Pull Down Resistor](https://unciarobotics.com/robotics/interfacing-arduino-push-button-switch-with-led-digitalread/)
 
 ---
 
