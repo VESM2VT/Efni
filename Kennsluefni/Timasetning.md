@@ -1,5 +1,4 @@
-# Tímasetningar
-_Í vinnslu_
+# delay() og millis()
 
 ---
 
