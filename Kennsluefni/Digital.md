@@ -7,9 +7,10 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 ---
 
 ### Digtial Output 
-```digitalWrite(PINNI, GILDI)```  skrifar annaðhvort ```HIGH``` eða ```LOW``` á pinna. Nánar um [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
+- ```digitalWrite(PINNI, GILDI)```  skrifar annaðhvort ```HIGH``` eða ```LOW``` á pinna. 
+- Dæmi: ```digitalWrite(4, LOW);``` skrifar ```LOW``` út á pinna 4. 
+- Nánar um [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
 
-Dæmi: ```digitalWrite(4, LOW);``` skrifar ```LOW``` út á pinna 4.
 
 #### Kóðasýnidæmi
 
@@ -19,9 +20,9 @@ Dæmi: ```digitalWrite(4, LOW);``` skrifar ```LOW``` út á pinna 4.
 ---
 
 ### Digital Input 
-```digitalRead(PINNI)``` – les stöðuna á pinna, staðan á pinnanum getur verið annaðhvort ```HIGH``` eða ```LOW```. Nánar um [digitalRead()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)
-
-Dæmi: ```int k = digitalRead(4);``` les stöðuna á pinna 4 og geymir í breytunni ```k```.
+- ```digitalRead(PINNI)``` – les stöðuna á pinna, staðan á pinnanum getur verið annaðhvort ```HIGH``` eða ```LOW```. 
+- Dæmi: ```int k = digitalRead(4);``` les stöðuna á pinna 4 og geymir í breytunni ```k```.
+- Nánar um [digitalRead()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)
 
 ---
 
