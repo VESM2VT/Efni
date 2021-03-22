@@ -86,11 +86,14 @@ https://create.arduino.cc/projecthub/Arduino_Scuola/build-a-simple-dac-for-your-
 1. [FadeOrBlink with a button](https://github.com/VESM2VT/Efni/blob/main/Kodi/fadeorblink.ino)
 1. [RGB LEDs (HEX)](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/overview)
 
+---
+
 <!--
 Tímaverkefni án þess að hafa sýnidæmi eða lausn:
 1. [Experiment 1: Controlling the Brightness of an LED](https://www.allaboutcircuits.com/projects/using-the-arduinos-analog-io/)
 1. [Experiment 2: Brightness Control Using a Potentiometer](https://www.allaboutcircuits.com/projects/using-the-arduinos-analog-io/)
 -->
+
 
 <!--
 ### Spurningar
