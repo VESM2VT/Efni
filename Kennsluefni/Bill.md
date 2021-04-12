@@ -4,5 +4,3 @@
 1. Notaðu Motor driver með 4 x dc móturum. sjá t.d. [Joystick Car and NRF24L01](https://forbiddenbit.com/en/arduino-projects/joystick-control-arduino-car-and-nrf24l01/)
 1. Gerðu bílinn sjálfkeyrandi.
 1. Bættu við árekstrarvarnarbúnaði með Ultrasonic.
-
--->
