@@ -6,3 +6,18 @@
 1. Gerðu bílinn sjálfkeyrandi, áfram, aftur, beygja til vinstri/hægri, stoppa, random.
 1. Bættu við árekstrarvarnarbúnaði með Ultrasonic.
 
+<!--
+#### L298N DC Motor Driver og batterý
+L298N er með 2V drop, t.d. 6V mótor fær þá mest 4V
+
+**Jumer ON**
+- 5V regulator enabled og logic on.
+- 5V input verður output pin með 0.5A til að knýja Arduino (notat vin pinna sem input).
+- Max 12V
+- Má alls ekki nota bæði batterí og 5V sem input.
+
+**Jumper OFF**
+- Arduino útvegar L298N rafmagn fyrir logic með 5V pinna á Arduino
+- MAX 35V
+
+-->
