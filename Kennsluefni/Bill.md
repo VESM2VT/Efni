@@ -11,9 +11,9 @@
 ### L298N DC Motor Driver og batterý
 L298N er með 2V drop, t.d. 6V mótor fær þá mest 4V
 
-**Jumer ON**
-- 5V regulator enabled og logic on.
-- 5V input verður output pin með 0.5A til að knýja Arduino (notat vin pinna sem input).
+**Jumper ON**
+- 5V regulator enabled og logic on. Batterí útvegar rafmagn til mótora og L298N logic
+- EKKI GERA: hægt er að nota 5V sem output pin með 0.5A til að knýja Arduino.
 - Max 12V
 - Má alls ekki nota bæði batterí og 5V sem input.
 
