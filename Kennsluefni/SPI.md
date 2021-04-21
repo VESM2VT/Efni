@@ -37,7 +37,7 @@ Lestu vel og vandlega og fylgdu tutorial: [How nRF24L01+ Wireless Module Works &
 1. Passaðu að hafa sömu tíðnina (Radio Frequency) og fremur há gildi með `.setChannel()` í setup falli.
 1. Strengurinn inniheldur nafnið þitt (ekki Hello World)
 1. Láttu LED lýsa hjá `transmitter` sem staðfestir að strengur hafi borist til `receiver`. 
-
+1. Til hvers er `IRQ` pinninn? 
 ---
 
 ### 5.5 Þráðlaus samskipti í báðar áttir með tveimur Arduino. 
