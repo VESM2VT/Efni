@@ -4,7 +4,7 @@
 1. Kynntu þér [L298N Motor Driver IC](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/#l298n-motor-driver-ic), sjá einnig hér [myndband](https://www.youtube.com/watch?v=Ey4xoG970Go)
 1. Fylgdu tutorial [Dual Channel H-Bridge Motor Driver Board L298N](https://dronebotworkshop.com/dc-motors-l298n-h-bridge/), fyrst með tvö stilliviðnám og svo [stýripinna](https://lastminuteengineers.com/joystick-interfacing-arduino-processing/).
 1. Gerðu bílinn sjálfkeyrandi, áfram, aftur, beygja til vinstri/hægri, stoppa, random.
-1. Bættu við árekstrarvarnarbúnaði með Ultrasonic. Sjá t.d [Workshoo: Ultrasonic+servo](https://dronebotworkshop.com/elegoo-robot-car-part-3/) 
+1. Bættu við árekstrarvarnarbúnaði með Ultrasonic. Sjá t.d [Workshop: Ultrasonic+servo](https://dronebotworkshop.com/elegoo-robot-car-part-3/) 
 
 ---
 
