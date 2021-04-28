@@ -8,7 +8,7 @@
 
 ---
 
-### L298N DC Motor Driver og batterý
+### L298N DC Motor Driver og rafhlöður (batterí)
 - L298N er með 2V drop
 - dc motórar eru 3-6V  
 
