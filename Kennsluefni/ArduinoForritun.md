@@ -49,7 +49,7 @@ Um leið og ákveðið er af hvaða tagi breytan er þá er ákveðið hversu mi
 
 Eins og allt annað sem tölvur vinna með þá eru tölur geymdar í tvíundakerfinu í minni. Talan 42 er því geymd sem 101010. Eins og kemur fram í umfjölluninni hér fyrir ofan þá taka breytur mismikið pláss í minni eftir því hvernig þær eru skilgreindar. Ef talan 42 er geymd í ```char``` breytu þá tekur hún 8 bita pláss í minninu og geymd sem 00101010 en ef hún er geymd í ```int``` breytu (sem tekur 16 bita) þá er hún geymd sem 0000000000101010.
 
-En hvað með -42, hvernig er hægt að geyma þá tölu t.d. í ```char``` breytu? Aðferðin sem notuð er heitir tvíundafylling (e. [2's complement](https://en.wikipedia.org/wiki/Two's_complement)) og virkar þannig að til að finna mínus tölu af annarri tölu tökum við bitana og snúm þeim við (1 verður 0 og 0 verður 1) síðan leggjum við einn við nýju tölun.
+En hvað með -42, hvernig er hægt að geyma þá tölu t.d. í ```char``` breytu? Aðferðin sem notuð er heitir tvíundafylling (e. [2's complement](https://en.wikipedia.org/wiki/Two's_complement)) og virkar þannig að til að finna mínus tölu af annarri tölu tökum við bitana og snúum þeim við (1 verður 0 og 0 verður 1) síðan leggjum við einn við nýju tölun.
 
 #### Dæmi
 
@@ -119,6 +119,7 @@ def leggjaSaman(a , b)
 **Arduino**
 
 ```c++
+// fallið tekur inn tvær heiltölur a og b, fallið skilar heiltölu sem er summa a og b
 int leggjaSaman(int a, int b) {
   return a + b;
 }
@@ -174,10 +175,9 @@ Helstu skipanir sem notaðar eru til að skrifa til Serial Monitor:
 
 ```Serial.print(TEXTI/TALA/BREYTA)``` notað til að skrifa til Serial Monitor án þess að færa bendilinn í nýja línu.
 
-```Serial.println(TEXTI/TALA/BREYTA)``` notað til að skrifa til Serial Monitor færir bendilinn í nýja línu.
+```Serial.println(TEXTI/TALA/BREYTA)``` notað til að skrifa til Serial Monitor, færir bendilinn í nýja línu.
 
-_Taktu einnig eftir því að TX LED blikkar þegar send eru skilaboð/kóði í tölvu._<br>
-_RX LED blikkar þegar skilaboð eru móttekin frá tölvu_
+_Taktu einnig eftir því að **TX LED** blikkar þegar send eru skilaboð/kóði til tölvu. **RX LED** blikkar þegar skilaboð eru móttekin frá tölvu_
 
 ### Dæmi
 
