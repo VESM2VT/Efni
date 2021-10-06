@@ -5,8 +5,6 @@ Arduino er forritað með Arduino málinu sem er mjög líkt og [C](https://en.w
 * [Arduino forritunarmálið (reference á ensku)](https://www.arduino.cc/reference/en/)
 * [Samanburður á Python og Arduino C/C++ (pdf)](https://github.com/VESM2VT/Efni/blob/master/Skjol/CogPython.pdf)
 
----
-
 ## Efnisyfirlit
 
 - [Breytur](#breytur)
@@ -301,7 +299,7 @@ y = (x < 10) ? 20 : 30;
 
 ### ```while``` lykkjan
 
-```while``` lykkjan í Arduino er alveg eins og ```while``` lykkjam í Python nema með fleiri svigum og slaufusvigar en ekki inndráttur marka gildissvið.
+```while``` lykkjan í Arduino er alveg eins og ```while``` lykkjan í Python nema með fleiri svigum og slaufusvigar en ekki inndráttur marka gildissvið.
 
 #### Dæmi
 
