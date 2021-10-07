@@ -1,4 +1,4 @@
-# delay() og millis()
+# Tímastjórnun
 
 ---
 
