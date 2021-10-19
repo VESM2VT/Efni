@@ -1,8 +1,8 @@
 ## Arduino 
 
 1. [What is Arduino and can I use it for my project? (myndband)](https://www.youtube.com/watch?v=CSx6k-zXlLE&list=PLYutciIGBqC2FdMRLZIbPJ-pr7_0KByDN&index=2)
-1. [Arduino Uno Specs](https://store.arduino.cc/products/arduino-uno-rev3?selectedStore=eu)
 1. [Pin layout; digital, TX/RX, analog, Vc, GND, reset (myndband)](https://www.youtube.com/watch?v=09zfRaLEasY)
+1. [Arduino Uno Specs](https://store.arduino.cc/products/arduino-uno-rev3?selectedStore=eu)
 1. [The Parts of an Arduino](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-0/take-a-tour#the-parts-of-an-arduino-1850093-4)
 1. [3 leiðir til að knýja ARDUINO (myndband)](https://www.programmingelectronics.com/power-arduino/)
 
