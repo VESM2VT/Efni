@@ -5,7 +5,5 @@
 1. [Binary & Hex (5 mín myndband)](https://learn.adafruit.com/collins-lab-binary-and-hex)
 
 <!--
-- Taka saman um data types í Arduino hér.
-
 - [CPU, memory, input and output (4 mín myndband)](https://www.khanacademy.org/computing/ap-computer-science-principles/computers-101/computer--components/v/khan-academy-and-codeorg-cpu-memory-input-output)
 -->
