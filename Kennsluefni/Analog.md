@@ -1,5 +1,3 @@
-_Í vinnslu_
-
 ## Að vinna með hliðræn gildi (analog)
 
 ---
