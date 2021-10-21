@@ -24,6 +24,7 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 - Dæmi: ```int k = digitalRead(4);``` les stöðuna á pinna 4 og geymir í breytunni ```k```.
 - If the pin isn’t connected to anything, `digitalRead()` can return either HIGH or LOW (and this can change randomly).
 - Nánar um [digitalRead() og kóðasýnidæmi (takki + LED)](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalread/)
+- Tilraun: Settu upp á brauðbretti LED og takka. Skrifaðu Arduino kóða þannig að takkinn virki með LED.
 
 ---
 
