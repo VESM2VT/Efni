@@ -41,7 +41,8 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 ### Pull Up resistors. 
 - [Pull Up Resistor (myndband 3:50)](https://www.youtube.com/watch?v=wxjerCHCEMg)
 - [Picking Pull-Up Resistor Values (myndband)](https://www.youtube.com/watch?v=u3Xiy2DVnI4&list=PLRIGIzu0Z7KlfGFD6gd0eMX0ozfJyrQL-&index=12)
-   - Afhverju að nota viðnám með hnapp en ekki bara vír í 5V (short-circuit) og hve mikið viðnám þarf?
+
+**Hugleiðingar** Afhverju að nota viðnám en ekki bara vír í 5V fyrir ´Pull up´?  En ef ég nota viðnám hverstu stórt þarf ég?
 
 ---
 
