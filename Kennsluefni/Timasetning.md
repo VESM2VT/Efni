@@ -135,9 +135,7 @@ If you need better resolution than millis(), [micros()](https://www.arduino.cc/r
 Debounce an input, means checking twice in a short period of time to make sure the pushbutton is definitely pressed (ignore noise). 
 <br>Sometimes if you pressed the button once, it would register two or even three presses.
 
-Basically, what we do is record a state change and then ignore further input for a couple milliseconds until we are satisfied the bouncing has stopped. This filters out the noise of a bouncy button.<br>
-
-[DEBOUNCING A BUTTON WITH ARDUINO kóðasýnidæmi (myndband)](https://www.programmingelectronics.com/debouncing-a-button-with-arduino/)
+Basically, what we do is record a state change and then ignore further input for a couple milliseconds until we are satisfied the bouncing has stopped. This filters out the noise of a bouncy button. Kóðasýnidæmi [DEBOUNCING A BUTTON (myndband)](https://www.programmingelectronics.com/debouncing-a-button-with-arduino/)
 
 
 **Tilraun**. Settu upp verklega með eftirfarandi kóða [Ekkert delay með takka og debounce](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay_debounce.ino)
