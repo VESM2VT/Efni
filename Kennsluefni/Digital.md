@@ -15,8 +15,8 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 - Nánar um [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
 
 **Tilraun**: Fylgdu verklega eftifarandi tutorials:
-1. [Blink (Halló heimur) með innbyggðu led](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1/upload-your-first-sketch)
-1. [Blink á brauðbretti](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/blinking-the-led)
+   1. [Blink (Halló heimur) með innbyggðu led](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1/upload-your-first-sketch)
+   1. [Blink á brauðbretti](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/blinking-the-led)
 
 ---
 
@@ -59,8 +59,8 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 - Pressing switch “pushes” input to 5 volts. Press is HIGH, Not pressed is LOW. 
 
 **Tilraun**: Fylgdu verklega eftifarandi tutorials:
-   1. [Pulldown resistor og Serial monitor](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial) 
-   1. [Push Button Switch with LED and Pull Down Resistor](https://unciarobotics.com/robotics/interfacing-arduino-push-button-switch-with-led-digitalread/)
+    1. [Pulldown resistor og Serial monitor](https://www.arduino.cc/en/Tutorial/BuiltInExamples/DigitalReadSerial) 
+    1. [Push Button Switch with LED and Pull Down Resistor](https://unciarobotics.com/robotics/interfacing-arduino-push-button-switch-with-led-digitalread/)
 
 ---
 
