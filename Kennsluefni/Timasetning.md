@@ -117,7 +117,7 @@ void loop() {
 }
 
 ```
-Her er myndband sem skýrir þetta einnig[Arduino Sketch with millis() instead of delay()](https://www.youtube.com/watch?v=BYKQ9rk0FEQ)
+Her er myndband sem skýrir þetta einnig [Arduino Sketch with millis() instead of delay()](https://www.youtube.com/watch?v=BYKQ9rk0FEQ)
 
 If you need better resolution than millis(), [micros()](https://www.arduino.cc/reference/en/language/functions/time/micros/) may be the way to go. Be aware that micros() will overflow after approximately 70 minutes.
 
