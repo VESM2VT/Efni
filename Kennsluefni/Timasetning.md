@@ -126,7 +126,7 @@ If you need better resolution than millis(), [micros()](https://www.arduino.cc/r
 1. [Understanding Blink without Delay 3xleds (millis)](https://wokwi.com/playground/blink-without-delay-3-leds)
 1. [Myndband: Doing multiple timed things (sensors) with Arduino](https://www.youtube.com/watch?v=hD3cR25MbW8)
 
----
+<br>
 
 **Tilraun**. Settu upp á brauðbretti takka og tvö LEDS og notaðu eftirfarandi kóða [Ekkert delay með takka](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay.ino)
 
