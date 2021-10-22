@@ -13,9 +13,10 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 - Dæmi: ```digitalWrite(4, LOW);``` skrifar ```LOW``` út á pinna 4. 
 - Pins configured as outputs can be damaged or destroyed if they are connected to either the ground or positive power rails.
 - Nánar um [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
-- Kóðasýnidæmi
-   1. [Blink (Halló heimur) með innbyggðu led](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1)
-   1. [Blink á brauðbretti](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/overview)
+
+**Tilraun**: Fylgdu verklega eftifarandi tutorials:
+1. [Blink (Halló heimur) með innbyggðu led](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1)
+1. [Blink á brauðbretti](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/overview)
 
 ---
 
