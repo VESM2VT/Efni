@@ -15,7 +15,7 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 - Nánar um [digitalWrite()](https://www.arduino.cc/reference/en/language/functions/digital-io/digitalwrite/)
 
 **Tilraun**: Fylgdu verklega eftifarandi tutorials:
-1. [Blink (Halló heimur) með innbyggðu led](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1)
+1. [Blink (Halló heimur) með innbyggðu led](https://learn.adafruit.com/ladyadas-learn-arduino-lesson-number-1/upload-your-first-sketch)
 1. [Blink á brauðbretti](https://learn.adafruit.com/adafruit-arduino-lesson-2-leds/overview)
 
 ---
