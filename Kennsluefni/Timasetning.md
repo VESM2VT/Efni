@@ -122,8 +122,8 @@ Her er myndband sem skýrir þetta einnig[Arduino Sketch with millis() instead o
 
 If you need better resolution than millis(), [micros()](https://www.arduino.cc/reference/en/language/functions/time/micros/) may be the way to go. Be aware that micros() will overflow after approximately 70 minutes.
 
-**Tilraunir:** Fylgdu verklega eftifarandi tutorials um millis():
-1. [Myndband: Understanding Blink without Delay 3xleds (millis)](https://wokwi.com/playground/blink-without-delay-3-leds)
+### Kóðasýnidæmi 
+1. [Understanding Blink without Delay 3xleds (millis)](https://wokwi.com/playground/blink-without-delay-3-leds)
 1. [Ekkert delay með takka](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay.ino)
 1. [Myndband: Doing multiple timed things (sensors) with Arduino](https://www.youtube.com/watch?v=hD3cR25MbW8)
 
