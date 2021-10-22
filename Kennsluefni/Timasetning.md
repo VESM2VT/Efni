@@ -139,10 +139,9 @@ Debounce an input, means checking twice in a short period of time to make sure t
 Basically, what we do is record a state change and then ignore further input for a couple milliseconds until we are satisfied the bouncing has stopped. This filters out the noise of a bouncy button.
 
 ### Kóðasýnidæmi 
-1. [DEBOUNCING A BUTTON WITH ARDUINO (myndband/vefgrein)](https://www.programmingelectronics.com/debouncing-a-button-with-arduino/)
+1. [DEBOUNCING A BUTTON WITH ARDUINO (myndband)](https://www.programmingelectronics.com/debouncing-a-button-with-arduino/)
 1. [Debounce](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Debounce)
 
 <br>
-
 **Tilraun**. Settu upp verklega með eftirfarandi kóða [Ekkert delay með takka og debounce](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay_debounce.ino)
 
