@@ -76,7 +76,6 @@ void loop() {
 }
 ```
 
-<br>
 
 ### [Blink without delay()](https://www.arduino.cc/en/Tutorial/BuiltInExamples/BlinkWithoutDelay)
 
