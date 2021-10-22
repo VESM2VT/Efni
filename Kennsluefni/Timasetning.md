@@ -144,5 +144,5 @@ Basically, what we do is record a state change and then ignore further input for
 
 <br>
 
-**Tilraun**. Settu upp á brauðbretti takka og tvö LEDS og notaðu eftirfarandi kóða [Ekkert delay með takka og debounce](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay_debounce.ino)
+**Tilraun**. Settu upp verklega með eftirfarandi kóða [Ekkert delay með takka og debounce](https://github.com/VESM2VT/Efni/blob/main/Kodi/no_delay_debounce.ino)
 
