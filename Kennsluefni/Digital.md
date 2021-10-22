@@ -33,7 +33,7 @@ Stafrænt (e. digital) gildi getur annaðhvort verið 0 eða 1 (eða á/af, kvei
 - With no connection, digital inputs “float” between 0 & 5 volts (LOW & HIGH)
 - Myndband (10:00) og kóðasýnidæmi: [Floating pins](https://www.programmingelectronics.com/floating-pins-pull-up-resistors-and-arduino/) (_floating pin, takki, innbyggt led, pullup viðnám_)
 
-**Tilraun:** Fylgdu eftir tilrauninni í myndbandinu og settu það upp á brauðbretti, notaðu 10K viðnám.
+**Tilraun:** Fylgdu eftir sýnidæminu í myndbandinu og settu það upp á brauðbretti, notaðu 10K viðnám.
 
 ---
 
