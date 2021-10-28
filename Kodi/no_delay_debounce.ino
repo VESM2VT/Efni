@@ -1,7 +1,6 @@
 const int LED = 2;
 const int LED2 = 10;
 const int TAKKI = 8;
-const int TAKKI2 = 9;
 
 unsigned long lidinn_timi = 0;
 unsigned long timi_nuna;
@@ -18,7 +17,6 @@ void setup() {
     pinMode(LED, OUTPUT);
     pinMode(LED2, OUTPUT);
     pinMode(TAKKI, INPUT_PULLUP);
-    pinMode(TAKKI2, INPUT_PULLUP);
     Serial.begin(9600);
 }
 
