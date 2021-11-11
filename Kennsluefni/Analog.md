@@ -48,10 +48,13 @@ Arduino Uno (og Nano) inniheldur 10-bita ADC sem breytir hliðrænu gildi (spenn
 
 
 #### Kóðasýnidæmi með analogRead():
+_ prófaðu að nota serial Plotter._
 
-1. [Read Analog Voltage with potentiometer (float)](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage), notaðu serial plotter.
+1. [Read Analog Voltage with potentiometer (float)](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage)
 1. [Joystick + serial monitor](https://github.com/VESM2VT/Efni/blob/main/Kodi/styripinni.ino)
 
+
+ 
 <!--
 - [`analogReadResolution()`](https://www.arduino.cc/reference/en/language/functions/zero-due-mkr-family/analogreadresolution/)
 T il að breyta gildum frá 0-1024 í spennu frá  0.0 og 5.0V, þá 5V / 1024 eða 0.0049V (4.9 mV) pr. unit. 
