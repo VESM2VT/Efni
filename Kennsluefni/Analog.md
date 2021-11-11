@@ -47,8 +47,9 @@ aftur hliðrun í spennu og straumi.
 Arduino Uno (og Nano) inniheldur 10-bita ADC sem breytir hliðrænu gildi (spennu) í heiltölu frá 0 til 1023. Hægt er að fá hliðrænt gildi á pinnum A0 til A5. Þá er hægt að nota innbyggðan sveiflusjá (serial plotter) í Arduino IDE til að fylgjast með hliðrænum gildum. Dæmi um inntak með hliðrænu gildum er stilliviðnám, ljósviðnám og stýripinni. 
 
 
-#### Kóðasýnidæmi með analogRead()
-1. [Read Analog Voltage with potentiometer (float)](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage)
+#### Kóðasýnidæmi með analogRead():
+
+1. [Read Analog Voltage with potentiometer (float)](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ReadAnalogVoltage), notaðu serial plotter.
 1. [Joystick + serial monitor](https://github.com/VESM2VT/Efni/blob/main/Kodi/styripinni.ino)
 
 <!--
@@ -78,7 +79,9 @@ _Nano 33 IoT, and Zero boards have true analog output when using analogWrite() o
 Build a simple DAC for your Arduino:
 https://create.arduino.cc/projecthub/Arduino_Scuola/build-a-simple-dac-for-your-arduino-4c00bd
 -->
+
 #### Kóðasýnidæmi með analogWrite()
+
 1. [Fading LED (for loop)](https://github.com/VESM2VT/Efni/blob/main/Kodi/fadingLED.md)
 1. [CandleLight (random)](https://github.com/VESM2VT/Efni/blob/main/Kodi/CandleLight.ino) 
 1. [FadeOrBlink with a button](https://github.com/VESM2VT/Efni/blob/main/Kodi/fadeorblink.ino)
