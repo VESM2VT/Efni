@@ -19,9 +19,9 @@ void setup() {
 }
 
 void loop() {
-  val = random(100,255);       // pick a random number between 100 and 255
+  val = random(100,255);       // pick a random number between 100 and 254
   analogWrite(ledPin, val);    // set the LED brightness
 
-  delayval = random(50,150);   // pick a random number between 30 and 100
+  delayval = random(50,150);   // pick a random number between 50 - 149
   delay(delayval);             // delay that many milliseconds
 }
