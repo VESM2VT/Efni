@@ -86,8 +86,9 @@ https://create.arduino.cc/projecthub/Arduino_Scuola/build-a-simple-dac-for-your-
 
 1. [Fading LED (for loop)](https://github.com/VESM2VT/Efni/blob/main/Kodi/fadingLED.md)
 1. [CandleLight (random)](https://github.com/VESM2VT/Efni/blob/main/Kodi/CandleLight.ino) 
-1. [FadeOrBlink with a button](https://github.com/VESM2VT/Efni/blob/main/Kodi/fadeorblink.ino)
 1. [RGB LEDs (HEX)](https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds/overview)
+
+<!--  1. [FadeOrBlink with a button](https://github.com/VESM2VT/Efni/blob/main/Kodi/fadeorblink.ino)  -->
 
 ---
 
