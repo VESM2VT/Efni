@@ -42,7 +42,7 @@ aftur hliðrun í spennu og straumi.
 
 ### Analog inntak
 - [analogRead(pin)](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/) 
-   - _les gildi frá analog pinna, skilar heiltölu á bilinu 0-1024._
+   - _les gildi frá analog pinna, skilar heiltölu á bilinu 0-1023._
 
 Arduino Uno (og Nano) inniheldur 10-bita ADC sem breytir hliðrænu gildi (spennu) í heiltölu frá 0 til 1023. Hægt er að fá hliðrænt gildi á pinnum A0 til A5. Þá er hægt að nota innbyggðan sveiflusjá (serial plotter) í Arduino IDE til að fylgjast með hliðrænum gildum. Dæmi um inntak með hliðrænu gildum er stilliviðnám, ljósviðnám og stýripinni. 
 
