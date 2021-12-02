@@ -8,14 +8,15 @@
 
 ![Arduino Hardware](https://github.com/VESM2VT/Efni/blob/main/Myndir/Arduino-Uno-basic-connectivity-layout.png)
 
+
+
 <!--
 Búa til töflu Arduino Uno Technical Specifications
-- straumur, vin etc
-https://components101.com/microcontrollers/arduino-uno
-
+- straumur, vin etc https://components101.com/microcontrollers/arduino-uno
 - Don't connect anything to Digital 0 or 1 unless you are super sure because it will affect your Arduino's ability to communicate!
 - ekki nota 5V til að knýja Arduino
-- varlega með vin
 - the max current you can pull continously is approximately. 1.5 Watt / (Input Voltage - 1 V - 5 V) = in Amps. So for 9V, the max for continuous current is 1.5/(9-1-5) = 0.5 Amps
-
+- I/O pins 20mA each (40mA max)
+- 5V pin output, 500mA (800mA max)
+- 3.3V 40 mA max
 -->
