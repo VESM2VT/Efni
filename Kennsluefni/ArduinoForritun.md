@@ -37,7 +37,8 @@ Um leið og ákveðið er af hvaða tagi breytan er þá er ákveðið hversu mi
 
 - [```int```](https://www.arduino.cc/reference/en/language/variables/data-types/int/) tekur 16 bita í minni og getur geymt heiltölur á bilinu -32768 til 32767.
   - [```unsigned int```](https://www.arduino.cc/reference/en/language/variables/data-types/unsignedint/) ef ekki er gert ráð fyrir að breyta geymi mínustölu má setja orðið ```unsigned``` fyrir framan tagið og getur þá ```int``` breyta geymt heiltölur á bilinu 0 til 65535.
-- [```long```]() tekur 32 bita í minni og getur geymt heiltölur á bilinu -2147483648 til 2147483647. Hægt að nota með ```unsigned```.
+- [```byte```](https://www.arduino.cc/reference/en/language/variables/data-types/byte/) tekur 8 bita í minni og getur geymt heiltölur á bilinu  0 til 255
+- [```long```](https://www.arduino.cc/reference/en/language/variables/data-types/long/) tekur 32 bita í minni og getur geymt heiltölur á bilinu -2147483648 til 2147483647. Hægt að nota með ```unsigned```.
 - [```float```](https://www.arduino.cc/reference/en/language/variables/data-types/float/) tekur 32 bita í minni og geymir kommutölur með nákvæmni upp á 6 aukastafi.
 - [```char```](https://www.arduino.cc/reference/en/language/variables/data-types/char/) tekur 8 bita í minni og getur geymt einn bókstaf í [ASCII](https://www.arduino.cc/en/Reference/ASCIIchart) stafakerfinu eða heiltölu á bilinu -128 til 127. Hægt að nota með ```unsigned```.
 - [```String```](https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/) tekur eins mikið minni og þarf. Geymir textastrengi.
