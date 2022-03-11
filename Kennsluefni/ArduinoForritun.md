@@ -44,6 +44,7 @@ Um leið og ákveðið er af hvaða tagi breytan er þá er ákveðið hversu mi
 - [```bool```](https://www.arduino.cc/reference/en/language/variables/data-types/bool/) tekur 8 bita í minni. Getur geymt annaðhvort ```false``` (jafngildir 0) eða ```true``` (**öll önnur gildi** en 0).
 
 <br>
+
 [Minni í Arduino](https://www.arduino.cc/en/Tutorial/Foundations/Memory)
 
 ### ```unsigned```, hvernig geyma tölvur mínustölur?
