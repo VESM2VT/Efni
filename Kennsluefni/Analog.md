@@ -67,7 +67,7 @@ T il að breyta gildum frá 0-1024 í spennu frá  0.0 og 5.0V, þá 5V / 1024 e
 
 Arduino hefur ekki innbyggðan DAC. Arduino þess í stað vinnur með _pulse-width modulation_ (PWM) bylgju sem er stafrænt merki og er notað til að líkja hliðrænu úttaki.
 PWM ("analog") pinnar í Arduino (Uno og Nano) eru; 3, 5, 6, 9, 10 og 11. Úttaksgildi er á bilinu 0-255. 
-<br>Hægt er að nota fallið  `map(value, fromLow, fromHigh, toLow, toHigh)` frá hliðrænu inntaki (0-1023) yfir í PMW úttak (0-255).
+<br>Hægt er að nota [map](https://www.arduino.cc/reference/en/language/functions/math/map/) fallið frá hliðrænu inntaki (0-1023) yfir í PMW úttak (0-255).
 
 <!--
 ![PWM](https://github.com/VESM2VT/Efni/blob/main/Myndir/pwm.gif)
