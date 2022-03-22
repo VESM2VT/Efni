@@ -1,10 +1,10 @@
 /*
   Hvernig á að tengja: 
-  GND tengist í GND
-  +5V tengist í 5V
-  VRx tengist í analog pinna
-  VRy tengist í analog pinna
-  SW tengist í digital pinna
+  GND tengist í GND             - G tengist í GND
+  +5V tengist í 5V              - V tengist í +5V
+  VRx tengist í analog pinna    - X tengist í A0
+  VRy tengist í analog pinna    - Y tengist í A1
+  SW tengist í digital pinna    - B tengist í digital pinna
 */
 
 const int x = A0;
